@@ -92,6 +92,7 @@ COLOR_PAIR = {}
 def init_colors():
     """initialize curses color pairs and give them names. The color pair
     can then later quickly be retrieved from the COLOR_PAIR[] dict"""
+    curses.use_default_colors();
     index = 1
     for (name, back, fore) in COLORS:
         if curses.has_colors():
