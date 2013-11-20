@@ -48,21 +48,21 @@ HEIGHT_STATUS   = 2
 HEIGHT_CON      = 7
 WIDTH_ORDERBOOK = 45
 
-COLORS =    [["con_text",       curses.COLOR_BLUE,    curses.COLOR_CYAN]
-            ,["con_text_buy",   curses.COLOR_BLUE,    curses.COLOR_GREEN]
-            ,["con_text_sell",  curses.COLOR_BLUE,    curses.COLOR_RED]
-            ,["status_text",    curses.COLOR_BLUE,    curses.COLOR_CYAN]
+COLORS =    [["con_text",       -1,    curses.COLOR_CYAN]
+            ,["con_text_buy",   -1,    curses.COLOR_GREEN]
+            ,["con_text_sell",  -1,    curses.COLOR_RED]
+            ,["status_text",    -1,    curses.COLOR_CYAN]
 
-            ,["book_text",      curses.COLOR_BLACK,   curses.COLOR_CYAN]
-            ,["book_bid",       curses.COLOR_BLACK,   curses.COLOR_GREEN]
-            ,["book_ask",       curses.COLOR_BLACK,   curses.COLOR_RED]
-            ,["book_own",       curses.COLOR_BLACK,   curses.COLOR_YELLOW]
-            ,["book_vol",       curses.COLOR_BLACK,   curses.COLOR_CYAN]
+            ,["book_text",      -1,   curses.COLOR_CYAN]
+            ,["book_bid",       -1,   curses.COLOR_GREEN]
+            ,["book_ask",       -1,   curses.COLOR_RED]
+            ,["book_own",       -1,   curses.COLOR_YELLOW]
+            ,["book_vol",       -1,   curses.COLOR_CYAN]
 
-            ,["chart_text",     curses.COLOR_BLACK,   curses.COLOR_WHITE]
-            ,["chart_up",       curses.COLOR_BLACK,   curses.COLOR_GREEN]
-            ,["chart_down",     curses.COLOR_BLACK,   curses.COLOR_RED]
-            ,["order_pending",  curses.COLOR_BLACK,   curses.COLOR_RED]
+            ,["chart_text",     -1,   curses.COLOR_WHITE]
+            ,["chart_up",       -1,   curses.COLOR_GREEN]
+            ,["chart_down",     -1,   curses.COLOR_RED]
+            ,["order_pending",  -1,   curses.COLOR_RED]
 
             ,["dialog_text",     curses.COLOR_BLUE,   curses.COLOR_CYAN]
             ,["dialog_sel",      curses.COLOR_CYAN,   curses.COLOR_BLUE]
